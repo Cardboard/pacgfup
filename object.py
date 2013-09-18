@@ -5,7 +5,7 @@ import pygame
 class Object:
 	def __init__(self, name, x, y, image_off, image_on, rect_off, rect_on, layer=0,\
 		activated=False, examine=False, breaks=False, dies=False, message="", response="",\
-		info=False, speed=None, loop=True):
+		info=False, speed=None, loop=False):
 		self.name = name
 		self.x = x
 		self.y = y 
